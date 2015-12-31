@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'		#官方仓库地址
+source ‘https://github.com/marklin2012/O2Specs.git’		#私有仓库地址
+
+use_frameworks!
+
+target 'JDUserDemo' do
+
+pod ‘JDUtil’
+pod ‘AVOSCloudDynamic’
+
+end
+

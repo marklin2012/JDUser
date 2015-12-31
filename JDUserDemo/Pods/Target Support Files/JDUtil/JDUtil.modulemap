@@ -1,0 +1,6 @@
+framework module JDUtil {
+  umbrella header "JDUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}
