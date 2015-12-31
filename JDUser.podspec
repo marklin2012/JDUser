@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
   s.source_files  = "JDUser/*.swift"
   s.frameworks = "UIKit", "QuartzCore", "Foundation"
   s.requires_arc = true
+  s.module_name = "JDUser"
   s.dependency "JDUtil", "~> 0.0.2"
+  s.dependency "AVOSCloudDynamic"
 
 end
